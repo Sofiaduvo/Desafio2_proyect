@@ -1,0 +1,284 @@
+@media screen and (max-width:576px){
+    /* index.html */
+    #menu{ /* menu horizontal oculto */
+        display: none;
+    }
+    .header{ 
+        width: 100%;
+        height: 20vh;
+        display: block;
+        flex-direction: column;
+    }
+    /* ul{
+        display: block;
+    } */
+    #logo{
+        width: 12vh;
+        height: auto;
+        border-radius: 1em;
+    }
+    .subtitulo{ /* subtitulo de menu horizontal */
+        display: none;
+    }
+
+    .subtitulo__verticalMain{ /* making shoes */
+        font-family: 'Bebas Neue', cursive;
+        font-size: small;
+        display: flex;
+        flex-direction: row;
+       /*  justify-content: space-around; */
+        background-color: yellow;
+        padding: 5px 5px;
+        margin: 0%;
+        animation-name: fadeInLeftBig;
+        animation-duration: 0.5s;
+        animation-iteration-count: 1;
+        /* margin-left: 50%;
+        background-color: yellow;
+        background-size: 100%; */
+    }
+
+    #mainContainer{
+        height: 100px;
+        width: auto;
+        margin: 0%;
+        display: flex;
+        flex-direction: row;
+        float: inline-start;
+        float: center;
+    }
+    div section h1{ /* temporada ss22 */
+        display: none;
+        /* font-size: small;
+        padding: 10px;
+        margin: 10px;
+        display: flex; */
+    }
+    .textSeason{
+        font-size: small;
+    }
+    .contenedorImages{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        /* justify-content: space-evenly; */
+        /* align-items: center; */
+        position: relative;
+        justify-items: center;
+    }
+    .imagen{
+        width: 9em;
+        height: auto;
+        align-items: center;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    .menuVertical{
+        display: inline-block;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        position: relative;
+        margin-top: 2%;
+        animation-name: fadeInLeftBig;
+        animation-duration: 0.5s;
+        animation-iteration-count: 1;
+    }
+    .botonMenu{ /* estilo contenido de label */
+        margin: 0;
+        display: block;
+        /* width: 60px;
+        height: 38px; */
+        padding: 2px 10px;
+        /* border-radius: 7px; */
+        background-color:black;
+        cursor: pointer;
+        position: relative;
+        float: inline-start;
+    }
+    .botonName__menu{
+        font-family: 'Bebas Neue', cursive;
+        font-size: medium;
+        padding: 0px;
+        margin: 0;
+        text-align: center;
+        color: white;
+    }
+    .botonMenu span{
+        display: block;
+        width: 40px;
+        height: 4px;
+        background-color:black;
+        margin-top: 5px;
+    }
+    label{ /* estilo etiq. label */
+        cursor: pointer;
+    }
+    #navbar-toggle{ /* estilo for de label */
+        display: none;
+    }
+    #navbar-toggle:checked + .nav-menu{
+        display: block;
+    }
+    .nav-menu{  /* ul */ /* trickMenu */
+        display: none;
+        text-align: center;
+        /* padding: 0; */
+    } 
+    .nav-menu li{
+        list-style: none;
+        background-color: white;
+        padding: 10px;
+        border-style: 2px solid beige;
+    }
+    .nav-menu li a{
+        font-family: 'Besley', serif;
+        color: black;
+        padding: 5px 0;
+        width: 10px;
+        height: 10px;
+        margin: 10px;
+        letter-spacing: 1px;
+        text-decoration: none;
+        /* display: none; */   
+    }
+    .text{
+        font-size: large;
+    }
+    .buttonContact{
+        animation-name: fadeInLeftBig;
+        animation-duration: 0.5s;
+        animation-iteration-count: 1;
+    }
+    .buttonContact a{
+        font-size: large;
+    }
+    footer p strong{
+        font-size: small;
+    }
+    /* productos.html */
+    .img1{
+        width: 150px;
+    }
+    .img2{
+        width: 150px;
+    }
+    .img3{
+        width: 150px;
+    }
+    .imgBotas{
+        width: 150px;
+    }
+    .imgZapatos{
+        width: 150px;
+    }
+    .grid-container h2{
+        font-size: small;
+    }
+    .subtituloCatalogue{
+        font-size: small;
+        /* margin-top: 10px; */
+        padding: 0px 5px;
+        background-color: yellow;
+        position: relative;
+        float: inline-end;
+        animation-name: fadeInLeftBig;
+        animation-duration: 0.5s;
+        animation-iteration-count: 1;
+    }
+    .catalogue{
+        margin-top: 10%;
+    }
+    .catalogueContain{
+        font-size: medium;
+        padding: 10px;
+    }
+    .catalogueContain:focus{
+        background-color: rgba(114, 114, 4, 0.61);
+    }
+    .grid-container{
+        height: 200px;
+    }
+    /* explorar.html */
+    .subtitle{
+        font-size: small;
+        padding-left: 5px;
+        position: relative;
+        float: inline-start;
+        animation-name: fadeInLeftBig;
+        animation-duration: 0.5s;
+        animation-iteration-count: 1;
+    }
+    .text-area{
+        margin-top: 20%;
+    }
+    .explorarContent{
+        font-size: medium;
+    }
+    section h3{
+        font-size: small;
+    }
+    .textFinal{
+        font-size: medium;
+    }
+    /* locales.html */
+    .locales{
+        font-size: large;
+        margin: 20px 0px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        animation-name: fadeInLeftBig;
+        animation-duration: 0.5s;
+        animation-iteration-count: 1;
+    }
+    .locales p{
+        margin-right: 74%;
+        margin-top: 2%;
+    }
+    .flexContainer .flexContainer__locales{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    iframe{
+        width: 250px;
+        height: 250px;
+        border: 2px solid black;
+    }
+    .localAlcorta p{
+        font-size: medium;
+        border: 2px solid black;
+    }
+    .localPalermo p{
+        font-size: medium;
+        border: 2px solid black;
+    }
+    .iframePalermo{
+        border: 2px solid black;
+    }
+    /* contactanos.html */
+    .containForm{
+        width: auto;
+        animation-name: fadeInLeftBig;
+        animation-duration: 0.5s;
+        animation-iteration-count: 1;
+    }
+    .tittleForm{ /* suscribite */
+        font-size: medium;
+        position: relative;
+        float: center;
+    }
+    .contentForm{
+        font-size: small;
+    }
+    .notificacionesDescuentos{
+        font-size: small;
+    }
+    .buttonPress{
+        font-size: small;
+    }
+    #textarea{
+        font-size: small;
+    }
+}  

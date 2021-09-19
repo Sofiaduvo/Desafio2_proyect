@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/mediaquerie.css">
+    <link rel="stylesheet" href="../CSS/keyframe.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Besley:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+
+<body>
+
+    <header class="header">
+        
+        <div>
+            <img src="../multimedia/logodirtyboots.png" alt="LOGO" id="logo">
+        </div>
+
+        <div class="subtitulo__verticalMain">
+            <h1>Making Shoes</h1>
+        </div>
+    
+        <nav id="menu">
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../paginas/productos.html">Productos</a></li>
+                <li><a href="../paginas/explorar.html">Explorar</a></li>
+                <li><a href="../paginas/locales.html">Locales</a></li>
+                <li><a href="../paginas/contactanos.html">Contactanos!</a></li>
+            </ul>
+        </nav>
+
+        <nav class="menuVertical">
+                    
+            <label for="navbar-toggle"> 
+                <div class="botonMenu">
+
+                    <span class="botonName__menu">MENÚ</span>
+           
+                    <span></span>
+           
+                    <span></span>
+           
+                 </div>
+            </label>
+            <input type="checkbox" id="navbar-toggle">
+               
+            <ul class="nav-menu">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../paginas/productos.html">Productos</a></li>
+                <li><a href="../paginas/explorar.html">Explorar</a></li>
+                <li><a href="../paginas/locales.html">Locales</a></li>
+                <li><a href="../paginas/contactanos.html">Contactanos!</a></li>
+            </ul>
+    </nav>
+
+    </header>
+
+    <div class="subtitulo">
+        <h2>Making Shoes</h2>
+    </div>
+
+    <form action="enviar.php" method="GET"></form>
+        <fieldset class="containForm">
+            <legend class="tittleForm">Sucribite!</legend>
+            <label class="contentForm" for="Nombre">Nombre</label>
+            <input type="text" id="Nombre">
+            <br>
+            <label class="contentForm" for="Apellido">Apellido</label>  
+            <input type="text" id="Apellido">
+            <br>
+            <label class="contentForm" for="Email">Email</label>
+            <input type="Email" name="Email" id="Email" required>   
+            <br>    
+            <br>
+            <label class="notificacionesDescuentos" for="texto plano"><strong>Deseas recibir notificaciones de descuentos?</strong></label>
+            <input type="checkbox" name="Deseas recibir notificaciones de descuentos?" id="Deseas recibir notificaciones de descuentos?">
+            <br>
+            <input class="buttonPress" type="button" value="Acepto">
+            <input class="buttonPress" type="button" value="No, no me interesa">
+            <br>
+            <br>
+            <textarea name="textarea" id="textarea" cols="30" rows="10">Dejanos tu comentario!</textarea>
+            <br>
+            <input type="button" value="Enviar formulario">
+            <input type="button" value="Borrar todo">
+        </fieldset>    
+    
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        
+    <footer>
+        <p><strong>2021, DyrtyBoots.</strong></p>
+    </footer>
+    
+</body>
+</html>
