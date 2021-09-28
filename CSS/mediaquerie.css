@@ -5,10 +5,6 @@
         padding: 0;
         box-sizing: border-box;
     }
-        display: flex;
-        flex-wrap: nowrap;
-        gap: 1rem;
-    }
     #menu{ /* menu horizontal oculto */
         display: none;
     }
