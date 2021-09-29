@@ -31,10 +31,6 @@
     animation-name: fadeInLeftBig;
     animation-duration: 0.5s;
     animation-iteration-count: 1;
-    /* position: relative;
-    top: 10px;
-    left: 10px;
-    bottom: 20px; */
 }
  
 .subtitulo{ /* MAKING SHOES */
@@ -48,11 +44,6 @@
     animation-name: fadeInLeftBig;
     animation-duration: 1s;
     animation-iteration-count: 1;
-    /* background-position: top center;
-    text-align: left; */
-    /* position: relative;
-    top: 10px;
-    left: 10px; */
 }
 .subtitulo__verticalMain{
     display: none;
@@ -72,15 +63,10 @@ ul{ /* nav menu */
     justify-content: flex end;
     align-items: flex-end;
     margin-bottom: 0%;
-    /* margin: 10px 5px;
-    padding: 5px;
-    position: relative;
-    top: 5px; */
 }
 
 #menu li{
     background-color: white;
-    /* padding: 2px; */
     margin: 5px;
     margin-top: 15%;
     border-radius: 2%;
@@ -101,31 +87,26 @@ ul{ /* nav menu */
      transition: height 2s, width 4s;
  }
 
-.menuVertical{
-    display: none;
-}
-/* #main-container{  
-    margin: 10px 10px 10px 10px;
-    background-color:rgba(114, 114, 4, 0.61);
-    height: 400px;
-    background-image: url(../multimedia/borcegosbajos.png);
-    background-image: url(../multimedia/borcegoscharol.png);
-    background-repeat: repeat;
-    background-position: bottom center;
-} */
-div section h1{ /* temporada ss22 */
-    font-family: 'Besley', serif;
-    color: rgba(51, 51, 3, 0.986);
-    position: relative;
-    top: 10px;
-    left: 10px;
+ .menu-responsive{ /* OCULTO EL MENU DE BS EN RESOLUCION ESCRITORIO */
+     display: none;
+ }
+
+.subtitulo2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: medium;
+    padding: 2px;
+    margin-top: 2%;
+    margin-left: 0.5%;
 }
  
 .textSeason{
     font-family: 'Besley', serif;
     background-color: rgba(114, 114, 4, 0.61);
     padding: 10px;
-    display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
     position: relative;
 }
 
@@ -134,20 +115,11 @@ section p{
     text-align-last: center;
 }
 
-.contenedorImages{
-    background-color:white;
-    margin-left: 15%;
-    max-width: 50px;
-    min-width: 50px;
-    display: inline;
-}
-
-.imagen{
-    width: 250px;
-    height: 250px;
-    margin: 0px 10px;
-    padding: 0px 20px;
-    float: center;
+.row img{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
 }
 
 .text-area__tittle{

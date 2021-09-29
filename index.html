@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dirty Boots | INICIO</title>
-    <link rel="stylesheet" href="./JS/javascript.js">
+    <link rel="stylesheet" href="./CSS/mediaquerie2.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="CSS/mediaquerie.css">
     <link rel="stylesheet" href="/CSS/keyframe.css">
@@ -21,15 +21,17 @@
 <body>
     <div class="flexContainer">
         <header class="header">
-            <div>
-                <img src="./multimedia/logodirtyboots.png" alt="LOGO" id="logo">
-            </div>
-        
-            <div class="subtitulo__verticalMain">
-                <h1>Making Shoes</h1>
-            </div>      
+            <div class="menuDesaparecer">
+                <div>
+                    <img src="./multimedia/logodirtyboots.png" alt="LOGO" id="logo">
+                </div>
             
-            <nav id="menu">
+                <div class="subtitulo__verticalMain">
+                    <h1>Making Shoes</h1>
+                </div>   
+            </div>   
+            
+            <nav id="menu"> <!-- MENU DESKTOP -->
                     <ul>
                         <li><a href="./index.html">Inicio</a></li>
                         <li><a href="./paginas/productos.html">Productos</a></li>
@@ -39,26 +41,30 @@
                     </ul>
             </nav>
             <!-- NAVBAR BS MENU RESPONSIVE -->
+            <div class="menu-responsive">
             <nav class="navbar navbar-light bg-light fixed-top">
                 <div class="container-fluid">
-                  <a class="navbar-brand" href="#">Inicio</a>
+                    <a class="navbar-brand" href="#">
+                        <img src="/multimedia/logodirtyboots.png" alt="logodirtyboots" width="30" height="24" class="d-inline-block align-text-top">
+                        Making Shoes
+                      </a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                     <span class="navbar-toggler-icon"></span>
                   </button>
                   <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                    <!-- menu header -->
+                    
                     <div class="offcanvas-header">
-                        <!-- tittle header -->
+                        
                       <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menú</h5>
                       <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
-                    <!-- menu body, paginas -->
+                    
                     <div class="offcanvas-body">
                       <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                        <li class="nav-item"><!-- INDEX/INICIO -->
+                        <li class="nav-item">
                           <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
                         </li>
-                        <li class="nav-item"><!-- PRODUCTOS -->
+                        <li class="nav-item">
                           <a class="nav-link" href="./paginas/productos.html">Productos</a>
                         </li>
                         <li class="nav-item">
@@ -75,30 +81,8 @@
                   </div>
                 </div>
               </nav>
-            <!-- <nav class="menuVertical">
-                    
-                    <label for="navbar-toggle"> 
-                        <div class="botonMenu">
-
-                            <span class="botonName__menu">MENÚ</span>
-                   
-                            <span></span>
-                   
-                            <span></span>
-                   
-                         </div>
-                    </label>
-                    <input type="checkbox" id="navbar-toggle">
-                       
-                    <ul class="nav-menu">
-                        <li><a href="./index.html">Inicio</a></li>
-                        <li><a href="./paginas/productos.html">Productos</a></li>
-                        <li><a href="./paginas/explorar.html">Explorar</a></li>
-                        <li><a href="./paginas/locales.html">Locales</a></li>
-                        <li><a href="./paginas/contactanos.html">Contactanos!</a></li>
-                    </ul>
-                
-            </nav> -->
+              </div>
+            
         </header>
     </div>
     
@@ -143,15 +127,18 @@
  
     <br>
 
-    
+    <!-- NEX SEASON TEXT -->
     <section class="textSeason">
         <p><strong>NEW SEASON! 3,6 y 12 cuotas sin interés con todos los medios de pago.</strong></p>
     </section>
 
-    <div class="contenedorImages">
-        <img class="imagen" src="./multimedia/borcegosaltos.png" alt="borcegosaltos">
-        <img class="imagen" src="./multimedia/borcegosbajos.png" alt="borcegosbajos">
-        <img class="imagen" src="./multimedia/bajosbrillosos.png" alt="borcegosbrillosos">
+    <div class="container">
+        <div class="row">
+        <img class="col-xs-3" src="./multimedia/borcegosaltos.png" alt="borcegosaltos">
+        <img class="col-xs-3" src="./multimedia/borcegosbajos.png" alt="borcegosbajos">
+        <img class="col-xs-3" src="./multimedia/bajosbrillosos.png" alt="borcegosbrillosos">
+        <img class="col-xs-3" src="./multimedia/sinplataformaopaca2.png" alt="sinplataformaopaca2">
+        </div>
     </div>
 
     <div>
@@ -169,7 +156,7 @@
     </div>
 
     <div class="buttonContact">
-        <a href="./paginas/contactanos.html">Unete a nosotros!</a>
+        <a class="link-secondary" href="./paginas/contactanos.html">Unete a nosotros!</a>
     </div>
     <br>    
     <br>

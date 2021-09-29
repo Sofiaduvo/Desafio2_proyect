@@ -1,4 +1,4 @@
-@media screen and (max-width:576px){
+@media screen and (min-width:0px) and (max-width:576px){
     /* index.html */
     *{
         margin: 0;
@@ -8,142 +8,57 @@
     #menu{ /* menu horizontal oculto */
         display: none;
     }
-    .header{ 
-        width: 100%;
-        height: 10%;
-        display: block;
-        flex-direction: column;
-        margin-top: 0%;
-    }
-    /* ul{
-        display: block;
-    } */
-    #logo{
-        width: 12vh;
-        height: auto;
-        border-radius: 1em;
-        padding-top: 1%;
-    }
-    .subtitulo{ /* subtitulo de menu horizontal */
+    .logo2{ 
         display: none;
     }
 
-    .subtitulo__verticalMain{ /* making shoes */
-        font-family: 'Bebas Neue', cursive;
-        font-size: small;
-        display: flex;
-        justify-content: flex-start;
-        background-color: yellow;
-        margin: 0;
-        animation-name: fadeInLeftBig;
-        animation-duration: 0.5s;
-        animation-iteration-count: 1;
+    .menuDesaparecer{
+        display: none;
     }
 
-    .subtitulo__verticalMain h1{
-        padding-left: 5px;
-        padding-top: 10px;
+    .subtitulo{
+        display: none;
     }
 
-    #mainContainer{
-        height: 100px;
-        width: auto;
-        margin: 0%;
-        display: flex;
-        flex-direction: row;
-        float: inline-start;
-        float: center;
+    .header{
+        height: auto;
     }
+
     div section h1{ /* temporada ss22 */
         display: none;
-        /* font-size: small;
-        padding: 10px;
-        margin: 10px;
-        display: flex; */
     }
     .textSeason{
         font-size: small;
-    }
-    .contenedorImages{
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
-        /* justify-content: space-evenly; */
-        /* align-items: center; */
-        position: relative;
-        justify-items: center;
+        flex-basis: 999;
+        flex-grow: 1;
     }
-    .imagen{
-        width: 9em;
-        height: auto;
+    
+    .textSeason p strong{
+        display: flex;
         align-items: center;
-        margin-left: 0%;
-        margin-right: 0%;
+        flex-wrap: nowrap;
+        flex-basis: 0;
+        flex-grow: 999;
+        position: relative;
     }
-    /* .menuVertical{
-        display: inline-block;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: flex-start;
-        position: relative;
-        margin-top: 2%;
-        animation-name: fadeInLeftBig;
-        animation-duration: 0.5s;
-        animation-iteration-count: 1;
-    } */
-    /* .botonMenu{ 
-        margin: 0;
-        display: block;
-        padding: 2px 10px;
-        background-color:black;
-        cursor: pointer;
-        position: relative;
-        float: inline-start;
-    } */
-    /* .botonName__menu{
-        font-family: 'Bebas Neue', cursive;
-        font-size: medium;
-        padding: 0px;
-        margin: 0;
-        text-align: center;
-        color: white;
-    } */
-    /* .botonMenu span{
-        display: block;
-        width: 40px;
-        height: 4px;
-        background-color:black;
-        margin: 4px;
-    } */
-    /* label{ 
-        cursor: pointer;
-    } */
-    /* #navbar-toggle{ 
-        display: none;
-    } */
-   /*  #navbar-toggle:checked + .nav-menu{
-        display: block;
-    } */
-  /*   .nav-menu{  
-        display: none;
-        text-align: center;
-    }  */
-    /* .nav-menu li{
-        list-style: none;
-        background-color: white;
-        padding: 10px;
-        border-style: 2px solid beige;
-    } */
-   /*  .nav-menu li a{
-        font-family: 'Besley', serif;
-        color: black;
-        padding: 5px 0;
-        width: 10px;
-        height: 10px;
-        margin: 10px;
-        letter-spacing: 1px;
-        text-decoration: none;  
-    } */
+    
+    .row img{
+        width: 8em;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: center;
+        flex-basis: 0;
+        flex-grow: 999;
+    }
+
+    .menu-responsive{
+        display: flex;
+    }
+
     .text{
         font-size: large;
     }
@@ -284,3 +199,7 @@
         font-size: small;
     }
 }  
+
+
+
+
