@@ -1,4 +1,4 @@
-@media screen and (min-width:0px) and (max-width:576px){
+@media screen and (min-width:50px) and (max-width:760px){
     /* index.html */
     *{
         margin: 0;
@@ -17,6 +17,10 @@
     }
 
     .subtitulo{
+        display: none;
+    }
+
+    #logo{
         display: none;
     }
 

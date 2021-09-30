@@ -37,31 +37,54 @@
             </ul>
         </nav>
 
-        <nav class="menuVertical">
+         <!-- NAVBAR BS MENU RESPONSIVE -->
+         <div class="menu-responsive">
+            <nav class="navbar navbar-light bg-light fixed-top">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="/multimedia/logodirtyboots.png" alt="logodirtyboots" width="30" height="24" class="d-inline-block align-text-top">
+                        Making Shoes
+                      </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                     
-            <label for="navbar-toggle"> 
-                <div class="botonMenu">
-
-                    <span class="botonName__menu">MENÚ</span>
-           
-                    <span></span>
-           
-                    <span></span>
-           
-                 </div>
-            </label>
-            <input type="checkbox" id="navbar-toggle">
-               
-            <ul class="nav-menu">
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="../paginas/productos.html">Productos</a></li>
-                <li><a href="../paginas/explorar.html">Explorar</a></li>
-                <li><a href="../paginas/locales.html">Locales</a></li>
-                <li><a href="../paginas/contactanos.html">Contactanos!</a></li>
-            </ul>
-    </nav>
-
+                    <div class="offcanvas-header">
+                        
+                      <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menú</h5>
+                      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    
+                    <div class="offcanvas-body">
+                      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="./paginas/productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./paginas/explorar.html">Explorar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./paginas/locales.html">Locales</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./paginas/contactanos.html">Contactanos</a>
+                        </li>
+                      <form class="d-flex">
+                        <input class="form-control me-2" type="Buscar" placeholder="Buscar" aria-label="Buscar">
+                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+              </div>
+            
     </header>
+    
 
     <div class="subtitulo">
         <h2>Making Shoes</h2>
