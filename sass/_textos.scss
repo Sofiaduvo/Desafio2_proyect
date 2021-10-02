@@ -1,27 +1,27 @@
 @import "vars"; 
 
 /* TEXTOS */
-.newSeason{
-    &__.textSeason{
-        font-family: $subtitulosBesley;
-        background-color: $colorPrincipal;
-        padding: 10px;
+
+.textSeason{
+    font-family: $subtitulosBesley;
+    background-color: $colorPrincipal;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    position: relative;
+    p{
+        position: relative;
+        text-align-last: center;
+    }
+}
+
+.row{
+    img{
         display: flex;
         flex-direction: row;
-        justify-content: center;
         flex-wrap: nowrap;
-        position: relative;
-    }
-        & &__.textSeason p{
-            position: relative;
-            text-align-last: center;
-        }
-    & &__.contentSeason{
-        .row img{
-            display: flex;
-            flex-direction: row;
-            flex-wrap: nowrap;
-            justify-content: center;
-        }
+        justify-content: center;
     }
 }

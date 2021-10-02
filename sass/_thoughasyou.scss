@@ -20,3 +20,15 @@
                     font-size: 5 * 10px;
                 }
 }
+
+/* BUTTON CONTACT */
+.buttonContact>a{
+    font-family: $subtitulos;
+    font-size: xx-large;
+    text-align: left;
+    background-color: $colorPrincipal;
+    padding: 3px;
+    border-radius: 2%;
+    color: black;
+    text-decoration: none;
+}
