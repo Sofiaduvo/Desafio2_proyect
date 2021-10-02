@@ -147,4 +147,17 @@
   margin-top: 2%;
   margin-left: 0.5%;
 }
+
+/* OCULTO ETIQUETAS QUEN SON PARA RESPONSIVE */
+.menu-responsive {
+  display: none;
+}
+
+.subtitulo__verticalMain {
+  display: none;
+}
+
+.navbar-toggle {
+  display: none;
+}
 /*# sourceMappingURL=style.css.map */
