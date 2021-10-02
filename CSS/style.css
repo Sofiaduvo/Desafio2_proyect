@@ -90,38 +90,6 @@
   transition: height 2s, width 4s;
 }
 
-/* SUBTITULOS */
-.subtitulo .subtitulo__principal {
-  font-family: "Bebas Neue", cursive, medium;
-  font-size: medium;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  margin: 0;
-  padding: 0px 10px;
-  background-color: yellow animation-name fadeInLeftBig;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
-  -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
-}
-
-/* OCULTO ETIQUETAS QUEN SON PARA RESPONSIVE */
-.menu-responsive {
-  display: none;
-}
-
-.subtitulo__verticalMain {
-  display: none;
-}
-
-.navbar-toggle {
-  display: none;
-}
-
 .subtitulo .subtitulo__principal {
   font-family: "Bebas Neue", cursive, medium;
   font-size: medium;

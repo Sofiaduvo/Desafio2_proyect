@@ -61,32 +61,4 @@
        }
 }
 
-/* SUBTITULOS */
-.subtitulo{ 
-    .subtitulo__principal{ 
-        font-family: $subtitulos;
-        font-size: $subtitulosSize;
-        display: flex;
-        justify-content: flex-start;
-        margin: 0;
-        padding: 0px 10px;
-        background-color: $colorMakingShoes
-        animation-name fadeInLeftBig;
-        animation-duration: 1s;
-        animation-iteration-count: 1;
-    }
-}
 
-
-/* OCULTO ETIQUETAS QUEN SON PARA RESPONSIVE */
-.menu-responsive{
-    display: none;
-}
-
-.subtitulo__verticalMain{
-    display: none;
-}
-
-.navbar-toggle{
-    display: none;
-}
