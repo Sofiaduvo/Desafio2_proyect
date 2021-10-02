@@ -168,4 +168,26 @@
       -ms-flex-pack: center;
           justify-content: center;
 }
+
+/* CUADRO AMARILLO INDEX */
+.footerDialogue .text-area__tittle {
+  font-family: "Bebas Neue", cursive, medium;
+  margin: 30px;
+  text-align: center;
+}
+
+.footerDialogue .text-area__text {
+  background-color: yellow;
+  text-align: center;
+}
+
+.footerDialogue .text-area__text h2 {
+  font-family: "Bebas Neue", cursive, medium;
+}
+
+.footerDialogue .text {
+  font-family: "Bebas Neue", cursive, medium;
+  text-align: center;
+  font-size: 50px;
+}
 /*# sourceMappingURL=style.css.map */

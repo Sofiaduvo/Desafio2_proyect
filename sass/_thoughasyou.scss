@@ -1,0 +1,22 @@
+@import "vars";
+
+/* CUADRO AMARILLO INDEX */
+.footerDialogue{
+    .text-area__tittle{
+        font-family: $subtitulos;
+        margin: 3 * 10px; // AGREGO SASS C/ OPERACIONES 
+        text-align: center;
+    }
+        .text-area__text{
+            background-color: $colorMakingShoes;
+            text-align: center;
+        }
+            .text-area__text h2{
+                font-family: $subtitulos;
+            }
+                .text{
+                    font-family: $subtitulos;
+                    text-align: center;
+                    font-size: 5 * 10px;
+                }
+}
