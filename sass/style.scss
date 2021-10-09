@@ -1,6 +1,20 @@
 @import "vars";
 @import "header";
+@import "logo";
 @import "subtitulos";
 @import "textos";
 @import "thoughasyou";
+
+
+/* OBJETOS A DESAPARECER DE DESKTOP */
+.subtitulo__verticalMain{
+    display: none;
+}
+
+#navbar-toggle{
+    display: none;
+}
+           
+
+
 

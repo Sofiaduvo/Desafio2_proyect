@@ -1,0 +1,13 @@
+@import "vars";
+
+#logo{
+    width: 10px * 10;
+    height: auto;
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: left;
+    animation-name: fadeInLeftBig;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+}
