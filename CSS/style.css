@@ -442,6 +442,62 @@ ul {
   font-size: x-large;
 }
 
+/* LOCALES */
+.dondeEncontrarnos {
+  font-family: "Bebas Neue", cursive;
+  background-color: rgba(114, 114, 4, 0.61);
+  font-size: x-large;
+  margin: 0px 2px;
+}
+
+.flexContainer__locales {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.flexContainer__locales .locales {
+  font-family: 'Bebas Neue', cursive;
+  font-size: xx-large;
+  padding: 20px auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  background-color: yellow;
+  width: auto;
+}
+
+.flexContainer__locales .localAlcorta {
+  background-color: white;
+  margin: 50px auto;
+  padding: 10px;
+}
+
+.flexContainer__locales .localAlcorta p {
+  font-family: 'Bebas Neue', cursive;
+  font-size: x-large;
+  background-color: yellow;
+  width: 120px;
+  height: auto;
+  padding: 1px;
+  text-align: center;
+}
+
+.flexContainer__locales .localPalermo {
+  background-color: white;
+  margin: 50px auto;
+  padding: 10px;
+}
+
+.flexContainer__locales .localPalermo p {
+  font-family: 'Bebas Neue', cursive;
+  font-size: x-large;
+  background-color: yellow;
+  width: 120px;
+  height: auto;
+  padding: 1px;
+  text-align: center;
+  float: top right;
+}
+
 /* OBJETOS A DESAPARECER DE DESKTOP */
 .subtitulo__verticalMain {
   display: none;

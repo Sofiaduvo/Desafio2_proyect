@@ -1,0 +1,53 @@
+@import "vars";
+
+/* LOCALES */
+
+.dondeEncontrarnos{
+    font-family: $subtitulos;
+    background-color: $colorPrincipal;
+    font-size: x-large;
+    margin: 0px 2px;
+}
+
+.flexContainer__locales{
+    justify-content: space-around;
+    .locales{
+        font-family: 'Bebas Neue', cursive;
+        font-size: xx-large;
+        padding: 20px auto;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        background-color: yellow;
+        width: auto;
+    }
+    .localAlcorta{
+        background-color: white;
+        margin: 50px auto;
+        padding: 10px;
+        p{
+            font-family: 'Bebas Neue', cursive;
+            font-size: x-large;
+            background-color: yellow;
+            width: 120px;
+            height: auto;
+            padding: 1px;
+            text-align: center;
+        }
+    }
+    
+    .localPalermo{
+        background-color: white;
+        margin: 50px auto;
+        padding: 10px;
+        p{
+            font-family: 'Bebas Neue', cursive;
+            font-size: x-large;
+            background-color: yellow;
+            width: 120px;
+            height: auto;
+            padding: 1px;
+            text-align: center;
+            float: top right;
+        }
+    }
+}
