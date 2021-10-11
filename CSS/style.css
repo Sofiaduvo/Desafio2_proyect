@@ -597,19 +597,6 @@ ul {
   margin: 10px 0px 5px;
 }
 
-/* iINDEX */
-* {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-#menu {
-  /* menu horizontal oculto */
-  display: none;
-}
-
 /* OBJETOS A DESAPARECER DE DESKTOP */
 .subtitulo__verticalMain {
   display: none;
