@@ -8,6 +8,7 @@
 @import "explorar";
 @import "locales";
 @import "contactanos";
+@import "mediaquerie";
 
 /* OBJETOS A DESAPARECER DE DESKTOP */
 .subtitulo__verticalMain{
@@ -22,6 +23,20 @@
     display: none;
 }
            
+/* CARROUSEL INDEX */
+
+h5{
+    background-color: $colorMakingShoes;
+    padding: 5px;
+    color: black;
+}
+
+.carousel-item{
+    max-height: 500px;
+    max-width: auto;
+    background-image: url(../multimedia/sandaliasblancas.jpg);
+    background-repeat: repeat;
+}
 
 
 

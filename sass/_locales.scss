@@ -6,11 +6,15 @@
     font-family: $subtitulos;
     background-color: $colorPrincipal;
     font-size: x-large;
-    margin: 0px 2px;
 }
 
-.flexContainer__locales{
-    justify-content: space-around;
+.gridContainer__locales{
+    display: grid;
+    grid-template-columns: 3fr 4fr 4fr;
+    grid-template-rows: 2fr 2fr;
+    grid-template-areas: 
+    "local1 info1 info2"
+    "local2 info3 info4";
     .locales{
         font-family: 'Bebas Neue', cursive;
         font-size: xx-large;
@@ -20,10 +24,11 @@
         background-color: yellow;
         width: auto;
     }
-    .localAlcorta{
+    .gridItem__localAlcorta{
         background-color: white;
         margin: 50px auto;
         padding: 10px;
+        grid-area: local1;
         p{
             font-family: 'Bebas Neue', cursive;
             font-size: x-large;
@@ -34,11 +39,11 @@
             text-align: center;
         }
     }
-    
-    .localPalermo{
+    .gridItem__localPalermo{
         background-color: white;
         margin: 50px auto;
         padding: 10px;
+        grid-area: local2;
         p{
             font-family: 'Bebas Neue', cursive;
             font-size: x-large;
@@ -49,5 +54,34 @@
             text-align: center;
             float: top right;
         }
+    }
+    .gridItem__direcciones{
+        grid-area: info1;
+        font-family: $subtitulos;
+        justify-self: center;
+        align-self: center;
+        p{
+            font-size: large;
+        }
+    }
+    .gridItem__direcciones2{
+        grid-area: info3;
+        font-family: $subtitulos;
+        justify-self: center;
+        align-self: center;
+        p{
+            font-size: large;
+        }
+    }
+    .gridItem__horarios{
+        grid-area: info2;
+        grid-row: 1/3;
+        background-color: black;
+        color:white;
+        padding: 10px;
+        font-family: $subtitulos;
+        justify-self: center;
+        align-self: center;
+        font-size: x-large;
     }
 }

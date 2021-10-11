@@ -1,1 +1,36 @@
-@import "contactanos";
+@import "vars";
+
+/* CONTACTANOS */
+
+.containForm{
+    background-color: beige;
+    width: 600px;
+    height: auto;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 90px 20px;
+    .tittleForm{
+        font-family: 'Bebas Neue', cursive;
+        font-size: xx-large;
+        text-align-last: left;
+        background-color: beige;
+        border: 1px solid black;
+        position: relative;
+        left: 5px;
+        top: 5px;
+        bottom: 10px;
+    }
+    .contentForm{
+        font-family: 'Besley', serif;
+        font-size: small;
+        text-align: left;
+    }
+    .notificacionesDescuentos{
+        background-color: beige;
+        margin: 10px 0px 5px;
+    }
+    .notificacionesDescuentos{
+        background-color: beige;
+        margin: 10px 0px 5px;
+    }
+}
