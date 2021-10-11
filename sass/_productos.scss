@@ -1,0 +1,95 @@
+@import "vars";
+
+/* productos */
+
+.subtitulo__secundario h2{
+    background-color: $colorPrincipal;
+}
+
+.img{
+    width: 300px;
+    height: auto;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 2fr;
+    grid-template-rows: 3fr 3fr 3fr;
+    grid-template-areas: 
+    "titulo1 productos1 productos2 productos3"
+    "titulo2 productos4 productos5 productos6"
+    "titulo3 productos7 productos8 productos9";
+    column-gap: 20px;
+    row-gap: 100px;
+    .grid-tittle p{
+        grid-area: titulo1;
+        background-color: $colorGridtittle;
+        text-align: center;
+        margin: 0;
+        padding: 5px;
+        width: 100px;
+        font-size: x-large;
+        font-family: $subtitulos;
+    }
+        .grid-item1{
+            justify-items: center;
+            align-items: center;
+            margin: auto;
+            grid-area: productos1;
+        }
+        .grid-item2{
+            justify-items: center;
+            align-items: center;
+            margin: auto;
+            grid-area: productos2;
+        }
+        .grid-item3{
+            justify-items: center;
+            align-items: center;
+            margin: auto;
+            grid-area: productos3;
+        }
+    .grid-tittle p{
+        grid-area: titulo2;
+    }
+        .grid-item4{
+            justify-items: center;
+            align-items: center;
+            margin: auto;
+            grid-area: productos4;
+        }
+        .grid-item5{
+            justify-items: center;
+            align-items: center;
+            margin: auto;
+            grid-area: productos5;
+        }
+        .grid-item6{
+            justify-items: center;
+            align-items: center;
+            margin: auto;
+            grid-area: productos6;
+        }
+    .grid-tittle p{
+        grid-area: titulo3;
+    }
+        .grid-item7{
+            justify-items: center;
+            align-items: center;
+            margin: auto;
+            grid-area: productos7;
+        }
+        .grid-item8{
+            justify-items: center;
+            align-items: center;
+            margin: auto;
+            grid-area: productos8;
+        }
+        .grid-item9{
+            justify-items: center;
+            align-items: center;
+            margin: auto;
+            grid-area: productos9;
+        }
+
+}

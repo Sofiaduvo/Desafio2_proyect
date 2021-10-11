@@ -4,7 +4,7 @@
 @import "subtitulos";
 @import "textos";
 @import "thoughasyou";
-
+@import "productos";
 
 /* OBJETOS A DESAPARECER DE DESKTOP */
 .subtitulo__verticalMain{
@@ -12,6 +12,10 @@
 }
 
 #navbar-toggle{
+    display: none;
+}
+
+.menu-responsive{
     display: none;
 }
            

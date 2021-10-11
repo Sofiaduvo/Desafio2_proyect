@@ -72,15 +72,6 @@ ul {
   transition: height 2s, width 4s;
 }
 
-/* OBJETOS A DESAPARECER DE DESKTOP */
-.subtitulo__verticalMain {
-  display: none;
-}
-
-#navbar-toggle {
-  display: none;
-}
-
 #logo {
   width: 100px;
   height: auto;
@@ -100,21 +91,20 @@ ul {
           animation-iteration-count: 1;
 }
 
-.menu-responsive {
-  display: none;
-}
-
 .subtitulo .subtitulo__principal {
-  font-family: "Bebas Neue", cursive, medium;
+  font-family: "Bebas Neue", cursive;
   font-size: medium;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
-          justify-content: flex-start;
+          justify-content: start;
+  -ms-flex-line-pack: center;
+      align-content: center;
   margin: 0;
-  padding: 0px 10px;
+  padding-top: 5%;
+  padding: 1px;
   background-color: yellow;
   -webkit-animation-name: fadeInLeftBig;
           animation-name: fadeInLeftBig;
@@ -125,11 +115,9 @@ ul {
 }
 
 .subtitulo .subtitulo__secundario {
-  font-family: "Bebas Neue", cursive, medium;
+  font-family: "Bebas Neue", cursive;
   font-size: medium;
-  padding: 2px;
-  margin-top: 2%;
-  margin-left: 0.5%;
+  background-color: rgba(114, 114, 4, 0.61);
 }
 
 /* TEXTOS */
@@ -160,11 +148,12 @@ ul {
 .row img {
   display: block;
   margin: auto;
+  margin-top: 2px;
 }
 
 /* CUADRO AMARILLO INDEX */
 .footerDialogue .text-area__tittle {
-  font-family: "Bebas Neue", cursive, medium;
+  font-family: "Bebas Neue", cursive;
   margin: 30px;
   text-align: center;
 }
@@ -175,18 +164,18 @@ ul {
 }
 
 .footerDialogue .text-area__text h2 {
-  font-family: "Bebas Neue", cursive, medium;
+  font-family: "Bebas Neue", cursive;
 }
 
 .footerDialogue .text {
-  font-family: "Bebas Neue", cursive, medium;
+  font-family: "Bebas Neue", cursive;
   text-align: center;
   font-size: 50px;
 }
 
 /* BUTTON CONTACT */
 .buttonContact > a {
-  font-family: "Bebas Neue", cursive, medium;
+  font-family: "Bebas Neue", cursive;
   font-size: xx-large;
   text-align: left;
   background-color: rgba(114, 114, 4, 0.61);
@@ -196,172 +185,163 @@ ul {
   text-decoration: none;
 }
 
-/* productos.html */
-/* box-model */
-/* grid */
+/* productos */
+.subtitulo__secundario h2 {
+  background-color: rgba(114, 114, 4, 0.61);
+}
 
-.grid-container{
-  padding: 30px;
-  background-color:white;
-  width: 100%;
-  height: 400px;
+.img {
+  width: 300px;
+  height: auto;
+}
+
+.grid-container {
+  display: -ms-grid;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  -ms-grid-columns: 1fr 2fr 2fr 2fr;
+      grid-template-columns: 1fr 2fr 2fr 2fr;
+  -ms-grid-rows: 3fr 3fr 3fr;
+      grid-template-rows: 3fr 3fr 3fr;
+      grid-template-areas: "titulo1 productos1 productos2 productos3" "titulo2 productos4 productos5 productos6" "titulo3 productos7 productos8 productos9";
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
+  row-gap: 100px;
+}
+
+.grid-container .grid-tittle p {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: titulo1;
+  background-color: rgba(221, 221, 147, 0.61);
+  text-align: center;
+  margin: 0;
+  padding: 5px;
+  width: 100px;
+  font-size: x-large;
+  font-family: "Bebas Neue", cursive;
+}
+
+.grid-container .grid-item1 {
   justify-items: center;
-  align-items: center;
-  margin-top: 5%;
-  grid: column gap 20px; 
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: productos1;
 }
 
-div section img{
-  width: 200px;
-  height: auto;
+.grid-container .grid-item2 {
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: productos2;
 }
 
-.subtituloCatalogue{
-  font-family: 'Bebas Neue', cursive;
-  font-size: x-large;
-  margin-top: 10px;
-  padding: 0px 10px;
-  background-color: yellow;
-}
-.catalogue{
-  width: 200px;
-  height:auto;
-  background-color:rgba(114, 114, 4, 0.61);
+.grid-container .grid-item3 {
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+  -ms-grid-row: 1;
+  -ms-grid-column: 4;
+  grid-area: productos3;
 }
 
-.catalogueContain{
-  font-family: 'Bebas Neue', cursive;
-  font-size: x-large;
-  padding: 10px 10px;
-  margin: 10px 10px;
-  align-items: center;
+.grid-container .grid-tittle p {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: titulo2;
 }
 
-/* explorar.hmtl */
-
-.subtitle{
-  background-color: yellow;
-  width: 100%;
-  height: auto;
-  font-size: x-large;
-  margin-top: 10px;
-  /* margin: 20px 10px; */
+.grid-container .grid-item4 {
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: productos4;
 }
 
-.text-area{
-  font-family: 'Bebas Neue', cursive;
-  font-size: large;
-  background-color: yellow;
-  width: 500px;
-  height: auto;
-  padding: 20px;
-  margin: 50px auto;
-}
-.explorarContent{
-  text-align: center;
-  letter-spacing: 1px;
-  display: inline;
+.grid-container .grid-item5 {
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+  grid-area: productos5;
 }
 
-section h3{
-  font-family: 'Besley', serif;
-  text-align: center;
-  font-size: medium;
+.grid-container .grid-item6 {
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+  -ms-grid-row: 2;
+  -ms-grid-column: 4;
+  grid-area: productos6;
 }
 
-section h3 p{
-  font-family: 'Bebas Neue', cursive;
-  text-align: center;
-  font-size: xx-large;
+.grid-container .grid-tittle p {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: titulo3;
 }
 
-/* locales.html */
-
-.flexContainer .flexContainer__locales{
-  justify-content: space-around;
+.grid-container .grid-item7 {
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+  grid-area: productos7;
 }
 
-.locales{
-  font-family: 'Bebas Neue', cursive;
-  font-size: xx-large;
-  padding: 20px auto;
-  margin-top: 10px;
-  margin-bottom: 20px;
-  background-color: yellow;
-  width: auto;
+.grid-container .grid-item8 {
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+  -ms-grid-row: 3;
+  -ms-grid-column: 3;
+  grid-area: productos8;
 }
 
-.localAlcorta{
-  background-color: white;
-  margin: 50px auto;
-  padding: 10px;
+.grid-container .grid-item9 {
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+  -ms-grid-row: 3;
+  -ms-grid-column: 4;
+  grid-area: productos9;
 }
 
-.localPalermo{
-  background-color: white;
-  margin: 50px auto;
-  padding: 10px;
-}
-.localAlcorta p{
-  font-family: 'Bebas Neue', cursive;
-  font-size: x-large;
-  background-color: yellow;
-  width: 120px;
-  height: auto;
-  padding: 1px;
-  text-align: center;
+/* OBJETOS A DESAPARECER DE DESKTOP */
+.subtitulo__verticalMain {
+  display: none;
 }
 
-.localPalermo p{
-  font-family: 'Bebas Neue', cursive;
-  font-size: x-large;
-  background-color: yellow;
-  width: 120px;
-  height: auto;
-  padding: 1px;
-  text-align: center;
-  float: top right;
+#navbar-toggle {
+  display: none;
 }
 
-/* contactanos.html */
-
-.containForm{
-  background-color: beige;
-  width: 600px;
-  height: auto;
-  border: 1px solid black;
-  padding: 10px;
-  margin: 90px 20px;
-
-}
-.tittleForm{
-  font-family: 'Bebas Neue', cursive;
-  font-size: xx-large;
-  text-align-last: left;
-  background-color: beige;
-  border: 1px solid black;
-  position: relative;
-  left: 5px;
-  top: 5px;
-  bottom: 10px;
-}
-
-.contentForm{
-  font-family: 'Besley', serif;
-  font-size: small;
-  text-align: left;
-}
-
-.notificacionesDescuentos{
-  background-color: beige;
-  margin: 10px 0px 5px;
-}
-.buttonPress{
-  background-color: white;
-  border-style: inherit;
-  padding: 1px;
+.menu-responsive {
+  display: none;
 }
 /*# sourceMappingURL=style.css.map */
