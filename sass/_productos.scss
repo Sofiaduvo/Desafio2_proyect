@@ -21,6 +21,7 @@
     "titulo3 productos7 productos8 productos9";
     column-gap: 20px;
     row-gap: 100px;
+    position: relative;
     .grid-tittle p{
         grid-area: titulo1;
         background-color: $colorGridtittle;

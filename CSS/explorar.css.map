@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,cAAc;AAEd,AAAA,UAAU,CAAA;EACN,gBAAgB,ECHD,MAAM;EDIrB,WAAW,EAAE,qBAAqB;EAClC,SAAS,EAAE,KAAK;EAChB,gBAAgB,EAAE,MAAM;EACxB,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,IAAI;EACZ,OAAO,EAAE,IAAI;EACb,MAAM,EAAE,SAAS;CACpB",
+    "sources": [
+        "../SASS/explorar.scss",
+        "../SASS/_vars.scss"
+    ],
+    "names": [],
+    "file": "explorar.css"
+}
