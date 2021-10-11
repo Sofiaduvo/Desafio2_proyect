@@ -1,6 +1,6 @@
 @import "vars";
 
-/* productos */
+/*PRODUCTOS */
 
 .subtitulo__secundario h2{
     background-color: $colorPrincipal;
@@ -36,18 +36,39 @@
             align-items: center;
             margin: auto;
             grid-area: productos1;
+            h3{
+                font-family: $fontProductos;
+                font-size: medium;
+            }
+            p{
+                font-family: $fontProductos;
+            }
         }
         .grid-item2{
             justify-items: center;
             align-items: center;
             margin: auto;
             grid-area: productos2;
+            h3{
+                font-family: $fontProductos;
+                font-size: medium;
+            }
+            p{
+                font-family: $fontProductos;
+            }
         }
         .grid-item3{
             justify-items: center;
             align-items: center;
             margin: auto;
             grid-area: productos3;
+            h3{
+                font-family: $fontProductos;
+                font-size: medium;
+            }
+            p{
+                font-family: $fontProductos;
+            }
         }
     .grid-tittle p{
         grid-area: titulo2;
@@ -57,18 +78,39 @@
             align-items: center;
             margin: auto;
             grid-area: productos4;
+            h3{
+                font-family: $fontProductos;
+                font-size: medium;
+            }
+            p{
+                font-family: $fontProductos;
+            }
         }
         .grid-item5{
             justify-items: center;
             align-items: center;
             margin: auto;
             grid-area: productos5;
+            h3{
+                font-family: $fontProductos;
+                font-size: medium;
+            }
+            p{
+                font-family: $fontProductos;
+            }
         }
         .grid-item6{
             justify-items: center;
             align-items: center;
             margin: auto;
             grid-area: productos6;
+            h3{
+                font-family: $fontProductos;
+                font-size: medium;
+            }
+            p{
+                font-family: $fontProductos;
+            }
         }
     .grid-tittle p{
         grid-area: titulo3;
@@ -78,18 +120,39 @@
             align-items: center;
             margin: auto;
             grid-area: productos7;
+            h3{
+                font-family: $fontProductos;
+                font-size: medium;
+            }
+            p{
+                font-family: $fontProductos;
+            }
         }
         .grid-item8{
             justify-items: center;
             align-items: center;
             margin: auto;
             grid-area: productos8;
+            h3{
+                font-family: $fontProductos;
+                font-size: medium;
+            }
+            p{
+                font-family: $fontProductos;
+            }
         }
         .grid-item9{
             justify-items: center;
             align-items: center;
             margin: auto;
             grid-area: productos9;
+            h3{
+                font-family: $fontProductos;
+                font-size: medium;
+            }
+            p{
+                font-family: $fontProductos;
+            }
         }
 
 }

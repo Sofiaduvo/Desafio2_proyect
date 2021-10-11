@@ -185,7 +185,7 @@ ul {
   text-decoration: none;
 }
 
-/* productos */
+/*PRODUCTOS */
 .subtitulo__secundario h2 {
   background-color: rgba(114, 114, 4, 0.61);
 }
@@ -232,6 +232,15 @@ ul {
   grid-area: productos1;
 }
 
+.grid-container .grid-item1 h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: medium;
+}
+
+.grid-container .grid-item1 p {
+  font-family: "Roboto", sans-serif;
+}
+
 .grid-container .grid-item2 {
   justify-items: center;
   -webkit-box-align: center;
@@ -243,6 +252,15 @@ ul {
   grid-area: productos2;
 }
 
+.grid-container .grid-item2 h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: medium;
+}
+
+.grid-container .grid-item2 p {
+  font-family: "Roboto", sans-serif;
+}
+
 .grid-container .grid-item3 {
   justify-items: center;
   -webkit-box-align: center;
@@ -252,6 +270,15 @@ ul {
   -ms-grid-row: 1;
   -ms-grid-column: 4;
   grid-area: productos3;
+}
+
+.grid-container .grid-item3 h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: medium;
+}
+
+.grid-container .grid-item3 p {
+  font-family: "Roboto", sans-serif;
 }
 
 .grid-container .grid-tittle p {
@@ -271,6 +298,15 @@ ul {
   grid-area: productos4;
 }
 
+.grid-container .grid-item4 h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: medium;
+}
+
+.grid-container .grid-item4 p {
+  font-family: "Roboto", sans-serif;
+}
+
 .grid-container .grid-item5 {
   justify-items: center;
   -webkit-box-align: center;
@@ -282,6 +318,15 @@ ul {
   grid-area: productos5;
 }
 
+.grid-container .grid-item5 h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: medium;
+}
+
+.grid-container .grid-item5 p {
+  font-family: "Roboto", sans-serif;
+}
+
 .grid-container .grid-item6 {
   justify-items: center;
   -webkit-box-align: center;
@@ -291,6 +336,15 @@ ul {
   -ms-grid-row: 2;
   -ms-grid-column: 4;
   grid-area: productos6;
+}
+
+.grid-container .grid-item6 h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: medium;
+}
+
+.grid-container .grid-item6 p {
+  font-family: "Roboto", sans-serif;
 }
 
 .grid-container .grid-tittle p {
@@ -310,6 +364,15 @@ ul {
   grid-area: productos7;
 }
 
+.grid-container .grid-item7 h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: medium;
+}
+
+.grid-container .grid-item7 p {
+  font-family: "Roboto", sans-serif;
+}
+
 .grid-container .grid-item8 {
   justify-items: center;
   -webkit-box-align: center;
@@ -321,6 +384,15 @@ ul {
   grid-area: productos8;
 }
 
+.grid-container .grid-item8 h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: medium;
+}
+
+.grid-container .grid-item8 p {
+  font-family: "Roboto", sans-serif;
+}
+
 .grid-container .grid-item9 {
   justify-items: center;
   -webkit-box-align: center;
@@ -330,6 +402,15 @@ ul {
   -ms-grid-row: 3;
   -ms-grid-column: 4;
   grid-area: productos9;
+}
+
+.grid-container .grid-item9 h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: medium;
+}
+
+.grid-container .grid-item9 p {
+  font-family: "Roboto", sans-serif;
 }
 
 /* OBJETOS A DESAPARECER DE DESKTOP */
