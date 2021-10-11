@@ -456,7 +456,7 @@ ul {
       grid-template-columns: 3fr 4fr 4fr;
   -ms-grid-rows: 2fr 2fr;
       grid-template-rows: 2fr 2fr;
-      grid-template-areas: "local1 info1 info2" "local2 info3 info4";
+      grid-template-areas: "local1 info1 info2" "local2 info3 .";
 }
 
 .gridContainer__locales .locales {
@@ -597,12 +597,17 @@ ul {
   margin: 10px 0px 5px;
 }
 
-/* INDEX HTML */
+/* iINDEX */
 * {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+#menu {
+  /* menu horizontal oculto */
+  display: none;
 }
 
 /* OBJETOS A DESAPARECER DE DESKTOP */

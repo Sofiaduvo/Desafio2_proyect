@@ -14,7 +14,7 @@
     grid-template-rows: 2fr 2fr;
     grid-template-areas: 
     "local1 info1 info2"
-    "local2 info3 info4";
+    "local2 info3 .";
     .locales{
         font-family: 'Bebas Neue', cursive;
         font-size: xx-large;
