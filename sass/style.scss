@@ -8,7 +8,7 @@
 @import "explorar";
 @import "locales";
 @import "contactanos";
-@import "mediaqueries";
+
 
 
 
@@ -40,6 +40,193 @@ h5{
     background-image: url(../multimedia/sandaliasblancas.jpg);
     background-repeat: repeat;
 }
+
+/* MEDIAQUERIE */
+
+@media screen and (min-width:50px) and (max-width:760px){
+    /* index.html */
+    
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    #menu{ /* objetos desaparecidos de desktop */
+        display: none;
+    }
+
+    .menuDesaparecer{
+        display: none;
+    }
+
+    .subtitulo{
+        display: none;
+    }
+
+    #logo{
+        display: none;
+    }
+
+    .header{
+        height: auto;
+        width: auto;
+    }
+
+    div section h1{ /* temporada ss22 */
+        display: none;
+    }
+
+    .newSeason{ 
+        .textSeason{
+            font-size: small;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            flex-basis: 999;
+            flex-grow: 1;
+            .textSeason p strong{
+                display: flex;
+                align-items: center;
+                flex-wrap: nowrap;
+                flex-basis: 0;
+                flex-grow: 999;
+                position: relative;
+            }
+        }
+    }
+    .row img{
+        width: 8em;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: center;
+        flex-basis: 0;
+        flex-grow: 999;
+    }
+
+    .menu-responsive{
+        display: flex;
+    }
+
+    .text{
+        font-size: large;
+    }
+   
+    .buttonContact{
+        animation-name: fadeInLeftBig;
+        animation-duration: 0.5s;
+        animation-iteration-count: 1;
+        .buttonContact a{
+            font-size: large;
+        }
+    }
+    
+  
+    /* PRODUCTOS.HTML */
+    .img{
+        width: 150px;
+    }
+    
+    .grid-container{
+        margin-top: 40%;
+        .grid-tittle{
+            font-size: small;
+            padding: 0px 5px;
+            position: relative;
+            float: inline-end;
+            animation-name: fadeInLeftBig;
+            animation-duration: 0.5s;
+            animation-iteration-count: 1;
+            p{
+                position: relative;
+            }
+        }
+    }
+
+    .img h3{
+        font-size: small;
+    }
+
+    /* explorar.html */
+  
+    .text-area{
+        margin-top: 20%;
+        .explorarContent{
+            font-size: medium;
+        }
+    }
+
+    .textFinal{
+        font-size: medium;
+        h3{
+            font-size: small;
+        }
+        p{
+            font-size: small;
+        }
+    }
+ 
+    /* locales.html */
+    .dondeEncontrarnos{
+        font-size: large;
+        margin: 20px 0px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        animation-name: fadeInLeftBig;
+        animation-duration: 0.5s;
+        animation-iteration-count: 1;
+    }
+    .dondeEncontrarnos p{
+        margin-right: 74%;
+        margin-top: 2%;
+    }
+    .gridContainer__locales{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    iframe{
+        width: 250px;
+        height: 250px;
+        border: 2px solid black;
+    }
+    .localAlcorta p{
+        font-size: medium;
+        border: 2px solid black;
+    }
+    .localPalermo p{
+        font-size: medium;
+        border: 2px solid black;
+    }
+    .iframePalermo{
+        border: 2px solid black;
+    }
+    /* contactanos.html */
+    .containForm{
+        width: auto;
+        animation-name: fadeInLeftBig;
+        animation-duration: 0.5s;
+        animation-iteration-count: 1;
+        .tittleForm{ /* suscribite */
+            font-size: medium;
+            position: relative;
+            float: center;
+        }
+        .contentForm{
+            font-size: small;
+        }
+        .notificacionesDescuentos{
+            font-size: small;
+        }
+        .buttonPress{
+            font-size: small;
+        }
+        #textarea{
+            font-size: small;
+        }
+    }
+    }
 
 
 

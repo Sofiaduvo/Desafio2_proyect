@@ -13,7 +13,7 @@
 
 .header {
   background-color: rgba(114, 114, 4, 0.61);
-  width: 100%;
+  width: auto;
   height: 120px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -622,5 +622,225 @@ h5 {
   max-width: auto;
   background-image: url(../multimedia/sandaliasblancas.jpg);
   background-repeat: repeat;
+}
+
+/* MEDIAQUERIE */
+@media screen and (min-width: 50px) and (max-width: 760px) {
+  /* index.html */
+  * {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  #menu {
+    /* objetos desaparecidos de desktop */
+    display: none;
+  }
+  .menuDesaparecer {
+    display: none;
+  }
+  .subtitulo {
+    display: none;
+  }
+  #logo {
+    display: none;
+  }
+  .header {
+    height: auto;
+    width: auto;
+  }
+  div section h1 {
+    /* temporada ss22 */
+    display: none;
+  }
+  .newSeason .textSeason {
+    font-size: small;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -ms-flex-preferred-size: 999;
+        flex-basis: 999;
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+  }
+  .newSeason .textSeason .textSeason p strong {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -ms-flex-preferred-size: 0;
+        flex-basis: 0;
+    -webkit-box-flex: 999;
+        -ms-flex-positive: 999;
+            flex-grow: 999;
+    position: relative;
+  }
+  .row img {
+    width: 8em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-preferred-size: 0;
+        flex-basis: 0;
+    -webkit-box-flex: 999;
+        -ms-flex-positive: 999;
+            flex-grow: 999;
+  }
+  .menu-responsive {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .text {
+    font-size: large;
+  }
+  .buttonContact {
+    -webkit-animation-name: fadeInLeftBig;
+            animation-name: fadeInLeftBig;
+    -webkit-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-iteration-count: 1;
+            animation-iteration-count: 1;
+  }
+  .buttonContact .buttonContact a {
+    font-size: large;
+  }
+  /* PRODUCTOS.HTML */
+  .img {
+    width: 150px;
+  }
+  .grid-container {
+    margin-top: 40%;
+  }
+  .grid-container .grid-tittle {
+    font-size: small;
+    padding: 0px 5px;
+    position: relative;
+    float: inline-end;
+    -webkit-animation-name: fadeInLeftBig;
+            animation-name: fadeInLeftBig;
+    -webkit-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-iteration-count: 1;
+            animation-iteration-count: 1;
+  }
+  .grid-container .grid-tittle p {
+    position: relative;
+  }
+  .img h3 {
+    font-size: small;
+  }
+  /* explorar.html */
+  .text-area {
+    margin-top: 20%;
+  }
+  .text-area .explorarContent {
+    font-size: medium;
+  }
+  .textFinal {
+    font-size: medium;
+  }
+  .textFinal h3 {
+    font-size: small;
+  }
+  .textFinal p {
+    font-size: small;
+  }
+  /* locales.html */
+  .dondeEncontrarnos {
+    font-size: large;
+    margin: 20px 0px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    -webkit-animation-name: fadeInLeftBig;
+            animation-name: fadeInLeftBig;
+    -webkit-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-iteration-count: 1;
+            animation-iteration-count: 1;
+  }
+  .dondeEncontrarnos p {
+    margin-right: 74%;
+    margin-top: 2%;
+  }
+  .gridContainer__locales {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  iframe {
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+  }
+  .localAlcorta p {
+    font-size: medium;
+    border: 2px solid black;
+  }
+  .localPalermo p {
+    font-size: medium;
+    border: 2px solid black;
+  }
+  .iframePalermo {
+    border: 2px solid black;
+  }
+  /* contactanos.html */
+  .containForm {
+    width: auto;
+    -webkit-animation-name: fadeInLeftBig;
+            animation-name: fadeInLeftBig;
+    -webkit-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-iteration-count: 1;
+            animation-iteration-count: 1;
+  }
+  .containForm .tittleForm {
+    /* suscribite */
+    font-size: medium;
+    position: relative;
+    float: center;
+  }
+  .containForm .contentForm {
+    font-size: small;
+  }
+  .containForm .notificacionesDescuentos {
+    font-size: small;
+  }
+  .containForm .buttonPress {
+    font-size: small;
+  }
+  .containForm #textarea {
+    font-size: small;
+  }
 }
 /*# sourceMappingURL=style.css.map */
