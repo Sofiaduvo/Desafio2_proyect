@@ -1,4 +1,5 @@
 @import "vars";
+@import "header";
 
 /* EXPLORAR */
 
@@ -12,6 +13,7 @@
     padding: 20px;
     margin: 50px auto;
     .explorarContent{
+        font-size: large;
         text-align: center;
         letter-spacing: 1px;
         display: inline;

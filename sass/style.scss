@@ -8,10 +8,7 @@
 @import "explorar";
 @import "locales";
 @import "contactanos";
-
-
-
-
+@import "carousel";
 
 /* OBJETOS A DESAPARECER DE DESKTOP */
 .subtitulo__verticalMain{
@@ -32,13 +29,6 @@ h5{
     background-color: $colorMakingShoes;
     padding: 5px;
     color: black;
-}
-
-.carousel-item{
-    max-height: 500px;
-    max-width: auto;
-    background-image: url(../multimedia/sandaliasblancas.jpg);
-    background-repeat: repeat;
 }
 
 /* MEDIAQUERIE */
@@ -76,6 +66,22 @@ h5{
         display: none;
     }
 
+    .menu-responsive{
+        display: flex;
+    }
+
+    .carouselContainer{
+        .carousel-inner{
+            height: 300px;
+        }
+        .carousel-item{
+            max-height: 100%;
+            img{
+                max-width: 50%;
+            }
+        }
+    }
+
     .newSeason{ 
         .textSeason{
             font-size: small;
@@ -104,36 +110,41 @@ h5{
         flex-grow: 999;
     }
 
-    .menu-responsive{
-        display: flex;
-    }
-
-    .text{
-        font-size: large;
+    .footerDialogue{
+        .text-area__text{
+            h2{
+                font-size: x-large;
+            }
+            .text{
+                font-size: medium;
+            }
+        }
     }
    
     .buttonContact{
         animation-name: fadeInLeftBig;
         animation-duration: 0.5s;
         animation-iteration-count: 1;
-        .buttonContact a{
-            font-size: large;
+        a{
+            font-size: small;
         }
     }
-    
-  
+
     /* PRODUCTOS.HTML */
-    .img{
-        width: 150px;
-    }
     
     .grid-container{
-        margin-top: 40%;
+        margin-top: 10%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-content: flex-start;
         .grid-tittle{
             font-size: small;
+            margin-top: 5%;
             padding: 0px 5px;
-            position: relative;
-            float: inline-end;
+            display: flex;
+            align-items: flex-start;
             animation-name: fadeInLeftBig;
             animation-duration: 0.5s;
             animation-iteration-count: 1;
@@ -141,6 +152,136 @@ h5{
                 position: relative;
             }
         }
+            .grid-item1{
+                align-items: stretch;
+                .img{
+                    width: 150px;
+                    height: auto;
+                }
+                h3{
+                    font-size: small;
+                }
+                p{
+                    font-size: smaller;
+                }
+            }
+            .grid-item2{
+                align-items: stretch;
+                .img{
+                    width: 150px;
+                    height: auto;
+                }
+                h3{
+                    font-size: small;
+                }
+                p{
+                    font-size: smaller;
+                }
+            }
+            .grid-item3{
+                align-items: stretch;
+                .img{
+                    width: 150px;
+                    height: auto;
+                }
+                h3{
+                    font-size: small;
+                }
+                p{
+                    font-size: smaller;
+                }
+            }
+            .grid-item4{
+                align-items: stretch;
+                .img{
+                    width: 150px;
+                    height: auto;
+                }
+                h3{
+                    font-size: small;
+                }
+                p{
+                    font-size: smaller;
+                }
+            }
+            .grid-item5{
+                align-items: stretch;
+                .img{
+                    width: 150px;
+                    height: auto;
+                }
+                h3{
+                    font-size: small;
+                }
+                p{
+                    font-size: smaller;
+                }
+            }
+            .grid-item6{
+                align-items: stretch;
+                .img{
+                    width: 150px;
+                    height: auto;
+                }
+                h3{
+                    font-size: small;
+                }
+                p{
+                    font-size: smaller;
+                }
+            }
+            .grid-item6{
+                align-items: stretch;
+                .img{
+                    width: 150px;
+                    height: auto;
+                }
+                h3{
+                    font-size: small;
+                }
+                p{
+                    font-size: smaller;
+                }
+            }
+            .grid-item7{
+                align-items: stretch;
+                .img{
+                    width: 150px;
+                    height: auto;
+                }
+                h3{
+                    font-size: small;
+                }
+                p{
+                    font-size: smaller;
+                }
+            }
+            .grid-item8{
+                align-items: stretch;
+                .img{
+                    width: 150px;
+                    height: auto;
+                }
+                h3{
+                    font-size: small;
+                }
+                p{
+                    font-size: smaller;
+                }
+            }
+            .grid-item9{
+                align-items: stretch;
+                .img{
+                    width: 150px;
+                    height: auto;
+                }
+                h3{
+                    font-size: small;
+                }
+                p{
+                    font-size: smaller;
+                }
+            }
     }
 
     .img h3{
@@ -151,7 +292,11 @@ h5{
   
     .text-area{
         margin-top: 20%;
+        padding: 60px;
         .explorarContent{
+            justify-items: center;
+            align-items: center;
+            text-align: center;
             font-size: medium;
         }
     }
@@ -160,9 +305,15 @@ h5{
         font-size: medium;
         h3{
             font-size: small;
+            justify-items: center;
+            align-items: center;
+            text-align: center;
         }
         p{
             font-size: small;
+            justify-items: center;
+            align-items: center;
+            text-align: center;
         }
     }
  
