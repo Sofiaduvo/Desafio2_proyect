@@ -6,6 +6,118 @@
 @import "contactanos";
 @import "index";
 
+/* LOGO */
+
+#logo{
+    width: 10px * 10;
+    height: auto;
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: left;
+    animation-name: fadeInLeftBig;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+}
+
+/* CAROUSEL */
+.carouselContainer{
+    .carousel-inner{
+        height: auto;
+    }
+    .carousel-item{
+        max-height: 400px;
+        max-width: auto;
+        background-image: url(../multimedia/fondocarousel.jpg);
+        background-repeat: repeat;
+        img{
+            max-width: 20%;
+            display:block;
+            margin:auto;
+        }
+    }
+}
+
+/* SUBTITULOS */
+.subtitulo{ 
+    .subtitulo__principal{ 
+        font-family: $subtitulos;
+        font-size: $subtitulosSize;
+        display: flex;
+        justify-content: start;
+        align-content: center;
+        margin: 0;
+        padding-top: 5%;
+        padding: 1px;
+        background-color: $colorMakingShoes;
+        animation-name: fadeInLeftBig;
+        animation-duration: 1s;
+        animation-iteration-count: 1;
+    }
+    .subtitulo__secundario{
+        font-family: $subtitulos;
+        font-size: $subtitulosSize;
+        background-color: $colorPrincipal;
+    }
+}
+
+/* TEXT SEASON */
+.textSeason{
+    font-family: $subtitulosBesley;
+    background-color: $colorPrincipal;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    position: relative;
+    p{
+        position: relative;
+        text-align-last: center;
+    }
+}
+
+.row{
+    img{
+        display: block;
+        margin: auto;
+        margin-top: 2px;
+    }
+}
+
+/* CUADRO AMARILLO INDEX */
+.footerDialogue{
+    .text-area__tittle{
+        font-family: $subtitulos;
+        margin: 3 * 10px; // AGREGO SASS C/ OPERACIONES 
+        text-align: center;
+    }
+        .text-area__text{
+            background-color: $colorMakingShoes;
+            text-align: center;
+        }
+            .text-area__text h2{
+                font-family: $subtitulos;
+            }
+                .text{
+                    font-family: $subtitulos;
+                    text-align: center;
+                    font-size: 5 * 10px;
+                }
+}
+
+/* BUTTON CONTACT */
+.buttonContact>a{
+    font-family: $subtitulos;
+    font-size: xx-large;
+    text-align: left;
+    background-color: $colorPrincipal;
+    padding: 3px;
+    border-radius: 2%;
+    color: black;
+    text-decoration: none;
+}
+
 /* OBJETOS A DESAPARECER DE DESKTOP */
 .subtitulo__verticalMain{
     display: none;

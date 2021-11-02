@@ -922,6 +922,139 @@ ul {
   text-decoration: none;
 }
 
+/* LOGO */
+#logo {
+  width: 100px;
+  height: auto;
+  border-radius: 10px;
+  margin: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-animation-name: fadeInLeftBig;
+          animation-name: fadeInLeftBig;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+}
+
+/* CAROUSEL */
+.carouselContainer .carousel-inner {
+  height: auto;
+}
+
+.carouselContainer .carousel-item {
+  max-height: 400px;
+  max-width: auto;
+  background-image: url(../multimedia/fondocarousel.jpg);
+  background-repeat: repeat;
+}
+
+.carouselContainer .carousel-item img {
+  max-width: 20%;
+  display: block;
+  margin: auto;
+}
+
+/* SUBTITULOS */
+.subtitulo .subtitulo__principal {
+  font-family: "Bebas Neue", cursive;
+  font-size: medium;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin: 0;
+  padding-top: 5%;
+  padding: 1px;
+  background-color: yellow;
+  -webkit-animation-name: fadeInLeftBig;
+          animation-name: fadeInLeftBig;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+}
+
+.subtitulo .subtitulo__secundario {
+  font-family: "Bebas Neue", cursive;
+  font-size: medium;
+  background-color: rgba(114, 114, 4, 0.61);
+}
+
+/* TEXT SEASON */
+.textSeason {
+  font-family: "Besley", serif;
+  background-color: rgba(114, 114, 4, 0.61);
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  position: relative;
+}
+
+.textSeason p {
+  position: relative;
+  text-align-last: center;
+}
+
+.row img {
+  display: block;
+  margin: auto;
+  margin-top: 2px;
+}
+
+/* CUADRO AMARILLO INDEX */
+.footerDialogue .text-area__tittle {
+  font-family: "Bebas Neue", cursive;
+  margin: 30px;
+  text-align: center;
+}
+
+.footerDialogue .text-area__text {
+  background-color: yellow;
+  text-align: center;
+}
+
+.footerDialogue .text-area__text h2 {
+  font-family: "Bebas Neue", cursive;
+}
+
+.footerDialogue .text {
+  font-family: "Bebas Neue", cursive;
+  text-align: center;
+  font-size: 50px;
+}
+
+/* BUTTON CONTACT */
+.buttonContact > a {
+  font-family: "Bebas Neue", cursive;
+  font-size: xx-large;
+  text-align: left;
+  background-color: rgba(114, 114, 4, 0.61);
+  padding: 3px;
+  border-radius: 2%;
+  color: black;
+  text-decoration: none;
+}
+
 /* OBJETOS A DESAPARECER DE DESKTOP */
 .subtitulo__verticalMain {
   display: none;
